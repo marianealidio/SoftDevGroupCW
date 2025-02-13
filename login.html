@@ -3,131 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home Page</title> <!-- name of the tab on the web browser -->
-    <link rel="stylesheet" href="CSS/Style.css"> <!-- link to external stylesheet-->
-    <style> /* created embedded style sheet*/
-/* styling the whole page, excluding the header and footer */
-    main{
-        display: block;
-        margin-top: 199px; /* so that the text does not hide under the header */
-    }
-/* styling the h2 tags */
-    h2{
-        background-color: #d0ce51;
-        padding: 10px;
-        color: black;
-        text-align: center;
-    }
-/* styling the text underneath the header */
-    .slogan{
-        font-style: italic;
-        text-align: center;
-    }
-/* styling the tiles as a whole */
-    .contentTiles {
-        display: flex; /* flexbox alignment, allowing manipulation of element's alignment, spacing, order within the container */
-        justify-content: center; /* Center the tiles horizontally */
-        gap: 5px; /* Adjust the gap value to make it smaller */
-        flex-wrap: wrap; /* Allow tiles to wrap to the next line */
-        margin-left: 20px;
-    }
-/* style each tile */
-    .tiles {
-        position: relative;
-        width: 200px; /* Adjust width to fit four tiles in a row */
-        overflow: hidden; /* Hide overflowing layOverText */
-    }
-/* style the images from the tiles class */
-    .tiles img {
-        width: 120px; /* Make the images fill the container width */
-        height: auto;
-        transition: opacity 0.3s;
-        margin-bottom: 50px;
-    }
-
-    .tiles:hover img {
-        opacity: 0.7; /* transparency level */
-    }
-/* style text that is on top of tile */
-    .layOverText {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 150px;
-        height: 170px;
-        background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
-        color: white;
-        opacity: 0; /* transparency level */
-        transition: opacity 0.3s; /* change the image from opaque to transparent with a time duration */
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-/* Adds opacity to layOverText when .tiles is hovered */
-    .tiles:hover .layOverText {
-        opacity: 1;
-    }
-/* Sets margin for h2 and p elements within layOverText */
-    .layOverText h2, .layOverText p {
-        margin: 5px 0;
-    }
-/* Styles for buttons within layOverText */
-    .layOverText button {
-        padding: 10px;
-        background-color: #333;
-        color: #fff;
-        border: none;
-        cursor: pointer; /* sets appearance when mouse cursor hovers over the element */ 
-        transition: background-color 0.3s, color 0.3s; /* sets up transition effects for changes in the background-color and color */
-    }
-/* Styles for button hover state */
-    .layOverText button:hover {
-        background-color: #555;
-    }
-/* style the text underneath the sub headings */
-    .question{
-        margin-left: 8%;
-        margin-right: 8%;
-    }
-    </style>
+    <title>Log In Page </title> 
+    <link rel="stylesheet" href=""> 
+    <style> </style>
 </head>
 <body>
 <header>
-<!-- nav bar code -->
 <nav>
-    <div class="logo-container"> <!-- div class used to style the header -->
-        <img src="images/logo1.png" alt="logo" class="pic">
-        <h1>Responsible Consumption & Production</h1>
-    </div>
-        <ul> <!-- unordered list used for nav bar -->
-            <li><a href="https://w1947450.users.ecs.westminster.ac.uk/HJAM!/home.html" target="_blank"> Home</a></li> 
-            <li><a href="https://w1973296.users.ecs.westminster.ac.uk/HJAM!/sitemap.html" target="_blank"> Sitemap </a></li>
-            <li><a href="https://w1973296.users.ecs.westminster.ac.uk/HJAM!/gallery.html" target="_blank"> Gallery</a></li>
-            <li><a href="https://w1974040.users.ecs.westminster.ac.uk/HJAM!/shop.html" target="_blank"> Shop</a></li>
-            <li><a href="https://w1975941.users.ecs.westminster.ac.uk/HJAM!/profile.html" target="_blank"> User Profile </a></li>
-            <li><a href="https://w1975941.users.ecs.westminster.ac.uk/HJAM!/team.html" target="_blank"> Team</a></li>
-            <li><a href="https://w1947450.users.ecs.westminster.ac.uk/HJAM!/feedback.html" target="_blank"> Feedback Form </a></li>
+        <ul>
         </ul>
 </nav>
 </header>
 </header>
-<!-- end of nav bar code -->
-<!-- used target blank to open links on new tab -->
 <main>
 </main>
-<!-- footer code -->
 <footer>
-    <span class="useful">Useful Links</span><br>
-    <a href="https://w1974040.users.ecs.westminster.ac.uk/HJAM/pageEditor_ST1.html" target="_blank"> Page Editor Student 1</a><br>
-    <a href="https://w1947450.users.ecs.westminster.ac.uk/HJAM!/pageEditor_ST2.html" target="_blank"> Page Editor Student 2</a><br>
-    <a href="https://w1975941.users.ecs.westminster.ac.uk/HJAM!/pageEditor_ST3.html" target="_blank"> Page Editor Student 3</a><br>
-    <a href="https://w1973296.users.ecs.westminster.ac.uk/HJAM!/pageEditor_ST4.html" target="_blank"> Page Editor Student 4</a><br>
-    <p> &copy; w1947450 Ayra Ahmed 2024</p> 
-    <a href="https://www.westminster.ac.uk/about-us/our-university/corporate-information/policies-and-documents-a-z/accessibility-statements-for-university-websites/accessibility-statement-for-sits-evision" target="_blank">Accessibility Statement</a>
 </footer>
-<!-- end of footer code -->
-<!-- added copy write claim
 </body>
 </html>
